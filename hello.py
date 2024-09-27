@@ -1,1 +1,2 @@
-print("Hello this is an Continues Delivery Project")
+import os
+print "Hello World from %s !" % os.environ['NAME']
